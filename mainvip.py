@@ -29,7 +29,7 @@ try:
 
     from twocaptcha import TwoCaptcha
     from inputimeout import inputimeout, TimeoutOccurred
-	from discord_webhook import DiscordWebhook
+    from discord_webhook import DiscordWebhook
 except:
 	from setup import install
 	install()
